@@ -18,3 +18,6 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
 console.log(app); // Add this line to see if Firebase is initialized
+
+console.log('Firebase App initialized:', app);
+
